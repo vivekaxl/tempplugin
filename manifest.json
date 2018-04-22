@@ -1,0 +1,17 @@
+{
+	"name": "ChattyCode",
+	"description": "Comment on Github",
+	"version": "0.1",
+
+	"manifest_version": 2,
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+
+	"permissions":[
+		"tabs",
+		"storage"
+	]
+}
